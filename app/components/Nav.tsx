@@ -22,12 +22,12 @@ const Nav = () => {
   const [showSignUp, setShowSignUp] = useState(false);
 
   return (
-    <div className="fixed top-0 left-0 z-50 shadow-md w-full bg-white text-black">
+    <div className="fixed top-0 left-0 z-50 shadow-md w-full bg-gradient-to-r from-white to-gray-100 text-black">
       <nav className="h-[10vh] flex items-center justify-between w-full px-4 md:px-6 lg:px-8">
         <div className="flex items-center md:ml-7 gap-2">
           <Image src={logo} alt="Samatva Logo" height={60} width={60} />
           <p className={`text-lg font-semibold md:block ${poppins.className}`}>
-            samatva tech
+            samatva
           </p>
         </div>
 

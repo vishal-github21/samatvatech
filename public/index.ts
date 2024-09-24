@@ -8,6 +8,9 @@ import hero from "./hero.jpg"
 import illus_1 from "./illus_1.jpg"
 import illus_2 from "./illus_2.jpg"
 import illus_3 from "./illus_3.jpg"
+import comm from "./comm.jpg"
+import jee from "./jee.jpg"
+import tech from "./tech.jpg"
 import collaboration from "./collaboration.svg"
 import app_game from "./apps and games.svg"
 import thinking from "./thinking.svg"
@@ -16,7 +19,7 @@ import prototype from "./prototype.svg"
 import mentors from "./mentors.svg"
 import foundation_knowledge from "./foundation knowledge.svg"
 import experience from "./experience.svg"
-
+import frame4 from "./Frame 4.svg"
 export{
-    logo,hero,workshop,labs,people,events,illus_1,illus_2,illus_3,workshophero,collaboration,app_game,thinking,skills,prototype,mentors,foundation_knowledge,experience
+    logo,hero,workshop,labs,frame4,people,comm,jee,tech,events,illus_1,illus_2,illus_3,workshophero,collaboration,app_game,thinking,skills,prototype,mentors,foundation_knowledge,experience
 }

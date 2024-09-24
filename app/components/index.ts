@@ -7,6 +7,7 @@ import Reviews from "./Reviews"
 import Provide from "./Provide"
 import Slidingskills from "./Slidingskills"
 import Gallery from "./Gallery"
+import MainHero from "./MainHero"
 export{
-    Nav,Hero,Footer,Data,Services_overview,Reviews,Provide,Slidingskills,Gallery
+    Nav,Hero,Footer,Data,Services_overview,Reviews,Provide,Slidingskills,Gallery,MainHero
 }

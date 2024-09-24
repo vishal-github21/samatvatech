@@ -1,4 +1,4 @@
-import { comm, frame4, jee, tech } from '@/public'
+import { comm, footmain, frame4, jee, tech } from '@/public'
 import Image from 'next/image'
 import Link from 'next/link';
 import React, { useState } from 'react'
@@ -13,9 +13,12 @@ const MainHero = () => {
         </div>
         <div className='absolute mt-[10vh] z-20 bg-transparent w-full'>
             <div className='relative w-full'>
-            <div className='flex items-center text-gray-300 text-2xl md:text-5xl mx-auto w-[65%] md:w-[55%] mt-[20vh] text-center'>Unlock the Power of Learning, Shape the Future!</div>
+            <div className='flex items-center text-gray-300 text-2xl md:text-5xl mx-auto w-[65%] md:w-[55%] mt-[15vh] md:mt-[20vh] text-center'>Unlock the Power of Learning, Shape the Future!</div>
             <div className='flex items-center text-xs md:text-sm text-gray-300 mx-auto w-[70%] mt-[6vh] md:w-[60%] text-center'>Empower yourself with the knowledge and skills to thrive in a dynamic world. Our expert-led programs ignite curiosity and inspire lifelong learning for a brighter tomorrow.</div>
-            <div onClick={()=>setoptions(true)} className='flex h-[6vh] w-[25vh] text-center items-center justify-center mx-auto mt-[5vh] md:mt-[7vh] text-black bg-yellow-300'>GET STARTED</div>
+            <div onClick={()=>setoptions(true)} className='flex h-[6vh] w-[25vh] text-center items-center justify-center mx-auto mt-[5vh] md:mt-[7vh] text-black bg-[#AFFC41]'>GET STARTED</div>
+            <div className='flex items-center justify-center'>
+                <Image src={footmain} alt='' className='w-30% h-[7vh] md:h-[9vh] mt-[9vh] md:mt-[12vh]'/>
+            </div>
             </div>
         </div>
         {options && (

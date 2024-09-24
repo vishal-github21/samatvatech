@@ -20,6 +20,7 @@ import mentors from "./mentors.svg"
 import foundation_knowledge from "./foundation knowledge.svg"
 import experience from "./experience.svg"
 import frame4 from "./Frame 4.svg"
+import footmain from "./footmain.svg"
 export{
-    logo,hero,workshop,labs,frame4,people,comm,jee,tech,events,illus_1,illus_2,illus_3,workshophero,collaboration,app_game,thinking,skills,prototype,mentors,foundation_knowledge,experience
+    logo,hero,workshop,labs,frame4,footmain,people,comm,jee,tech,events,illus_1,illus_2,illus_3,workshophero,collaboration,app_game,thinking,skills,prototype,mentors,foundation_knowledge,experience
 }

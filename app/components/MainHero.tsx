@@ -14,7 +14,7 @@ const MainHero = () => {
         <div className='absolute mt-[10vh] z-20 bg-transparent w-full'>
             <div className='relative w-full'>
             <div className='flex items-center text-gray-300 text-2xl md:text-5xl mx-auto w-[65%] md:w-[55%] mt-[20vh] text-center'>Unlock the Power of Learning, Shape the Future!</div>
-            <div className='flex items-center text-xs md:text-sm text-gray-300 mx-auto w-[70%] mt-[6vh] md:w-[60%] text-center'>"Empower yourself with the knowledge and skills to thrive in a dynamic world. Our expert-led programs ignite curiosity and inspire lifelong learning for a brighter tomorrow."</div>
+            <div className='flex items-center text-xs md:text-sm text-gray-300 mx-auto w-[70%] mt-[6vh] md:w-[60%] text-center'>Empower yourself with the knowledge and skills to thrive in a dynamic world. Our expert-led programs ignite curiosity and inspire lifelong learning for a brighter tomorrow.</div>
             <div onClick={()=>setoptions(true)} className='flex h-[6vh] w-[25vh] text-center items-center justify-center mx-auto mt-[5vh] md:mt-[7vh] text-black bg-yellow-300'>GET STARTED</div>
             </div>
         </div>

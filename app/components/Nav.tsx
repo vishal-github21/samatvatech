@@ -38,7 +38,7 @@ const Nav = () => {
             <Link href="/" className="block px-4 py-2 text-lg text-teal-600 text-center">Home</Link>
           </div>
           <div>
-            <Link href="/labs" className="block px-4 py-2 text-lg text-teal-600 text-center">Makerspace</Link>
+            <Link href="/tech/labs" className="block px-4 py-2 text-lg text-teal-600 text-center">Makerspace</Link>
           </div>
           <div>
             <Link href="/workshops" className="block px-4 py-2 text-lg text-teal-600 text-center">Workshops</Link>
@@ -104,7 +104,7 @@ const Nav = () => {
               Home
             </Link>
             <Link
-              href="/Labs"
+              href="/tech/Labs"
               className="block px-4 py-2 text-lg text-teal-600 hover:bg-gray-200 w-full text-center"
             >
               Makerspace

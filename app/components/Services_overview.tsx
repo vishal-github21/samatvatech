@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import {hero,illus_1, illus_2, illus_3} from "@/public"
+import Link from 'next/link'
 
 const Services_overview = () => {
   return (
@@ -8,30 +9,30 @@ const Services_overview = () => {
             Services overview
         </div>
         
-<a href="#" className="flex flex-col items-center  bg-white rounded-lg md:flex-row w-[85%] hover:bg-gray-100 dark:border-gray-700 mx-auto my-6 shadow-lg shadow-gray-500">
+<Link href="/workshops" className="flex flex-col items-center  bg-white rounded-lg md:flex-row w-[85%] hover:bg-gray-100 dark:border-gray-700 mx-auto my-6 shadow-lg shadow-gray-500">
     <Image className="object-cover md:max-w-[40%] rounded-t-lg filter sepia-[-60%] brightness-110 contrast-90 md:h-[60vh]  md:rounded-none md:rounded-s-lg" src={illus_1} alt=""/>
     <div className="flex flex-col justify-between p-4 leading-normal">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-green-700">Engage in Interactive Live Workshops</h5>
         <p className="mb-3 font-normal text-gray-500">Join our expert-led live workshops designed to enhance your skills with hands-on learning in cutting-edge technologies and tools. Stay ahead by participating in sessions covering the latest trends.</p>
         <button className='h-[5vh] w-[20vh] mt-3 ml-3 bg-gradient-to-r from-red-700 to-orange-600 flex justify-center items-center rounded-3xl '>Learn More</button>
     </div>
-</a>
-<a href="#" className="flex flex-col items-center  bg-white rounded-lg md:flex-row w-[85%] hover:bg-gray-100 dark:border-gray-700 mx-auto my-6 shadow-lg shadow-gray-500">
+</Link>
+<Link href="/tech/labs" className="flex flex-col items-center  bg-white rounded-lg md:flex-row w-[85%] hover:bg-gray-100 dark:border-gray-700 mx-auto my-6 shadow-lg shadow-gray-500">
     <Image className="object-cover md:max-w-[40%] rounded-t-lg filter sepia-[-60%] brightness-110 contrast-90 md:h-[60vh]  md:rounded-none md:rounded-s-lg" src={illus_2} alt=""/>
     <div className="flex flex-col justify-between p-4 leading-normal">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-teal-700">Explore the World of STEM Labs</h5>
         <p className="mb-3 font-normal text-gray-500">Immerse yourself in practical STEM labs focused on science, technology, engineering, and math. Build, experiment, and innovate with real-world projects that inspire creativity and problem-solving.</p>
                 <button className='h-[5vh] w-[20vh] mt-3 ml-3 bg-gradient-to-r from-green-700 to-teal-600 flex justify-center items-center rounded-3xl '>Get Started</button>
     </div>
-</a>
-<a href="#" className="flex flex-col mb-24 items-center  bg-white rounded-lg md:flex-row w-[85%] hover:bg-gray-100 dark:border-gray-700 mx-auto my-6 shadow-lg shadow-gray-500">
+</Link>
+<Link href="/events" className="flex flex-col mb-24 items-center  bg-white rounded-lg md:flex-row w-[85%] hover:bg-gray-100 dark:border-gray-700 mx-auto my-6 shadow-lg shadow-gray-500">
     <Image className="object-cover md:max-w-[40%] rounded-t-lg filter sepia-[-60%] brightness-110 contrast-90 md:h-[60vh]  md:rounded-none md:rounded-s-lg" src={illus_3} alt=""/>
     <div className="flex flex-col justify-between p-4 leading-normal">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-orange-700">Participate in Exciting Events</h5>
         <p className="mb-3 font-normal text-gray-500">Attend exclusive events that bring together industry professionals, enthusiasts, and learners. Network, collaborate, and explore new opportunities at our engaging events.</p>
                 <button className='h-[5vh] w-[20vh] mt-3 ml-3 bg-gradient-to-r from-blue-700 to-violet-700 flex justify-center items-center rounded-3xl '>Join Now</button>
     </div>
-</a>
+</Link>
 
     </div>
   )

@@ -26,9 +26,9 @@ const Nav = () => {
       <nav className="h-[10vh] flex items-center justify-between w-full px-4 md:px-6 lg:px-8">
         <div className="flex items-center md:ml-7 gap-2">
           <Image src={logo} alt="Samatva Logo" height={60} width={60} />
-          <p className={`text-lg font-semibold md:block ${poppins.className}`}>
+          <Link href='/'><p className={`text-lg font-semibold md:block ${poppins.className}`}>
             samatva
-          </p>
+          </p></Link>
         </div>
 
         <div
@@ -38,10 +38,10 @@ const Nav = () => {
             <Link href="/" className="block px-4 py-2 text-lg text-teal-600 text-center">Home</Link>
           </div>
           <div>
-            <Link href="/tech/labs" className="block px-4 py-2 text-lg text-teal-600 text-center">Makerspace</Link>
+            <Link href="/our_team" className="block px-4 py-2 text-lg text-teal-600 text-center">our team</Link>
           </div>
           <div>
-            <Link href="/workshops" className="block px-4 py-2 text-lg text-teal-600 text-center">Workshops</Link>
+            <Link href="/contact_us" className="block px-4 py-2 text-lg text-teal-600 text-center">contact us</Link>
           </div>
           <div>
             <Link href="/events" className="block px-4 py-2 text-lg text-teal-600 text-center">Events</Link>
@@ -104,16 +104,16 @@ const Nav = () => {
               Home
             </Link>
             <Link
-              href="/tech/Labs"
+              href="/our_team"
               className="block px-4 py-2 text-lg text-teal-600 hover:bg-gray-200 w-full text-center"
             >
-              Makerspace
+              our team
             </Link>
             <Link
-              href="/workshops"
+              href="/contact_us"
               className="block px-4 py-2 text-lg text-teal-600 hover:bg-gray-200 w-full text-center"
             >
-              Workshops
+              contact us
             </Link>
             <Link
               href="/events"

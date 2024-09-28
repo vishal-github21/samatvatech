@@ -15,7 +15,7 @@ const MainHero = () => {
             <div className='relative w-full'>
             <div className='flex items-center text-gray-300 text-2xl md:text-5xl mx-auto w-[65%] md:w-[55%] mt-[15vh] md:mt-[20vh] text-center'>Unlock the Power of Learning, Shape the Future!</div>
             <div className='flex items-center text-xs md:text-sm text-gray-300 mx-auto w-[70%] mt-[6vh] md:w-[60%] text-center'>Empower yourself with the knowledge and skills to thrive in a dynamic world. Our expert-led programs ignite curiosity and inspire lifelong learning for a brighter tomorrow.</div>
-            <div onClick={()=>setoptions(true)} className='flex h-[6vh] w-[25vh] text-center items-center justify-center mx-auto mt-[5vh] md:mt-[7vh] text-black bg-[#AFFC41]'>GET STARTED</div>
+            <div onClick={()=>setoptions(true)} className='flex cursor-pointer h-[6vh] w-[25vh] text-center items-center justify-center mx-auto mt-[5vh] md:mt-[7vh] text-black bg-[#AFFC41]'>GET STARTED</div>
             <div className='flex items-center justify-center'>
                 <Image src={footmain} alt='' className='w-30% h-[7vh] md:h-[9vh] mt-[9vh] md:mt-[12vh]'/>
             </div>
@@ -27,14 +27,14 @@ const MainHero = () => {
 
       {/* Image and caption container */}
       <div className="relative h-[28%] md:h-[80%] w-[50%] md:w-[28%] bg-teal-700 border-2 border-teal-700 rounded-lg shadow">
-        <Link href="/tech"><Image className="rounded-lg w-full h-full object-cover" src={jee} alt='' />
+        <Link href="/foundation"><Image className="rounded-lg w-full h-full object-cover" src={jee} alt='' />
         </Link><div className="absolute bottom-0 w-full rounded-b-lg text-teal-200 bg-black bg-opacity-50 text-center p-2">
           <p>Foundation</p>
         </div>
       </div>
 
       <div className="relative h-[28%] md:h-[80%] w-[50%] md:w-[28%] bg-teal-700 border-2 border-teal-700 rounded-lg shadow">
-        <Link href="/tech"><Image className="rounded-lg w-full h-full object-cover" src={comm} alt='' />
+        <Link href="/commerse"><Image className="rounded-lg w-full h-full object-cover" src={comm} alt='' />
         </Link><div className="absolute bottom-0 w-full rounded-b-lg text-teal-200 bg-black bg-opacity-50 text-center p-2">
           <p>Commerce</p>
         </div>

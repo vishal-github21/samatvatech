@@ -34,7 +34,7 @@ const MainHero = () => {
       </div>
 
       <div className="relative h-[28%] md:h-[80%] w-[50%] md:w-[28%] bg-teal-700 border-2 border-teal-700 rounded-lg shadow">
-        <Link href="/commerse"><Image className="rounded-lg w-full h-full object-cover" src={comm} alt='' />
+        <Link href="/commerce"><Image className="rounded-lg w-full h-full object-cover" src={comm} alt='' />
         </Link><div className="absolute bottom-0 w-full rounded-b-lg text-teal-200 bg-black bg-opacity-50 text-center p-2">
           <p>Commerce</p>
         </div>

@@ -11,7 +11,7 @@ const foundation = () => {
       <Nav/>
       <div className='mt-[10vh] relative min-h-screen'>
         <Image src={foundation_hero} alt='' className='h-[70vh] -z-10 md:h-auto absolute object-cover md:w-full'/>
-        <div className='z-30 text-xl md:text-5xl text-slate-200 bg-transparent w-[80%] md:w-[60%] mx-auto text-center pt-[20vh] md:pt-[25vh]'>Achieve Success in IIT JEE & Medical Entrance Exams</div>
+        <div className='z-30 text-xl md:text-5xl font-medium text-slate-200 bg-transparent w-[80%] md:w-[60%] mx-auto text-center pt-[20vh] md:pt-[25vh]'>Achieve Success in IIT JEE & Medical Entrance Exams</div>
 
         <div className='z-30 text-[0.75rem] md:text-base text-slate-300 bg-transparent w-[70%] md:w-[60%] mx-auto text-center pt-[3vh] md:pt-[4vh]'>Comprehensive coaching for classes 6 to 12 Build a strong foundation with expert faculty.</div>
 

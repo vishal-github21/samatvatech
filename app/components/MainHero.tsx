@@ -29,21 +29,21 @@ const MainHero = () => {
       <div className="relative h-[28%] md:h-[80%] w-[50%] md:w-[28%] bg-teal-700 border-2 border-teal-700 rounded-lg shadow">
         <Link href="/foundation"><Image className="rounded-lg w-full h-full object-cover" src={jee} alt='' />
         </Link><div className="absolute bottom-0 w-full rounded-b-lg text-teal-200 bg-black bg-opacity-50 text-center p-2">
-          <p>Foundation</p>
+          <p>Foundation | Jee | Medical</p>
         </div>
       </div>
 
       <div className="relative h-[28%] md:h-[80%] w-[50%] md:w-[28%] bg-teal-700 border-2 border-teal-700 rounded-lg shadow">
         <Link href="/commerce"><Image className="rounded-lg w-full h-full object-cover" src={comm} alt='' />
         </Link><div className="absolute bottom-0 w-full rounded-b-lg text-teal-200 bg-black bg-opacity-50 text-center p-2">
-          <p>Commerce</p>
+          <p>Commerce | CLAT</p>
         </div>
       </div>
 
       <div className="relative h-[28%] md:h-[80%] w-[50%] md:w-[28%] bg-teal-700 border-2 border-teal-700 rounded-lg shadow">
         <Link href="/tech"><Image className="rounded-lg w-full h-full object-cover" src={tech} alt='' />
         </Link><div className="absolute bottom-0 w-full rounded-b-lg text-teal-200 bg-black bg-opacity-50 text-center p-2">
-          <p>Tech Coaching</p>
+          <p>Coding | Robotics</p>
         </div>
       </div>
 

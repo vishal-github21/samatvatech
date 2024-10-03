@@ -1,10 +1,11 @@
 "use client"
-import {Nav,Hero, Footer,Data, Services_overview, Reviews, Provide, Slidingskills, Gallery} from ".././components"
+import {Nav,Hero, Footer,Data, Services_overview, Reviews, Provide, Slidingskills, Gallery, Payment} from ".././components"
 export default function Home() {
 
   return (
     <main className="min-h-screen bg-gray-100">
       <Nav/>
+      <Payment/>
       <Hero/>
       <Slidingskills/>
       <Provide/>

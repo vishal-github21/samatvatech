@@ -8,6 +8,7 @@ import Provide from "./Provide"
 import Slidingskills from "./Slidingskills"
 import Gallery from "./Gallery"
 import MainHero from "./MainHero"
+import Payment from "./Payment"
 export{
-    Nav,Hero,Footer,Data,Services_overview,Reviews,Provide,Slidingskills,Gallery,MainHero
+    Nav,Hero,Footer,Data,Payment,Services_overview,Reviews,Provide,Slidingskills,Gallery,MainHero
 }

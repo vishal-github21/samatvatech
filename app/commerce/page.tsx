@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import { Nav,Footer, Gallery } from '../components'
+import { Nav,Footer, Gallery, Payment } from '../components'
 import Image from 'next/image'
 import { commerse_hero } from '@/public'
 import Link from 'next/link'
@@ -10,6 +10,7 @@ const foundation = () => {
   return (
     <div>
       <Nav/>
+      <Payment/>
       <div className='mt-[10vh] relative h-[70vh] md:h-[90vh] bg-white z-0'>
         <Image src={commerse_hero} alt='' className='h-[70vh] -z-10 md:h-auto absolute object-cover md:w-full'/>
         <div className='z-30 text-xl md:text-5xl font-medium md:font-normal text-slate-200 bg-transparent w-[80%] md:w-[60%] mx-auto text-center pt-[20vh] md:pt-[29vh]'>Expert Coaching for CBSE Commerce, CLAT, and CAT Exams</div>

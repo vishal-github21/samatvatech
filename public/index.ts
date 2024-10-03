@@ -11,6 +11,7 @@ import illus_3 from "./illus_3.jpg"
 import comm from "./comm.jpg"
 import jee from "./jee.jpg"
 import tech from "./tech.jpg"
+import payment from "./payment.jpg"
 import gouri from "./gouri.jpeg"
 import md from "./md.jpeg"
 import profile from "./profile.jpg"
@@ -28,5 +29,5 @@ import workshopdata from "./workshopdata.svg"
 import foundation_hero from "./foundation_hero.svg"
 import commerse_hero from "./commerse_hero.svg"
 export{
-    logo,hero,profile,gouri,md,workshop,labs,workshopdata,commerse_hero,frame4,foundation_hero,footmain,people,comm,jee,tech,events,illus_1,illus_2,illus_3,workshophero,collaboration,app_game,thinking,skills,prototype,mentors,foundation_knowledge,experience
+    logo,hero,profile,payment,gouri,md,workshop,labs,workshopdata,commerse_hero,frame4,foundation_hero,footmain,people,comm,jee,tech,events,illus_1,illus_2,illus_3,workshophero,collaboration,app_game,thinking,skills,prototype,mentors,foundation_knowledge,experience
 }

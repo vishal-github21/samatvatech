@@ -17,7 +17,7 @@ const foundation = () => {
         <div className='z-30 text-[0.75rem] md:text-base text-slate-300 bg-transparent w-[65%] md:w-[60%] mx-auto text-center pt-[3vh] md:pt-[4vh]'>Join us to build a strong foundation for your future in business, law, and management</div>
 
         <button className="text-gray-100 animate-glow bg-green-600 hover:bg-green-900 focus:ring-2 focus:outline-none transition-transform focus:ring-blue-300 font-medium rounded-lg text-sm md:text-base px-6 py-1.5 md:px-9 md:py-2 mt-[7vh] md:mt-[10vh] text-center flex mx-auto items-center">
-            <Link href="/foundation_enroll">Enroll Now</Link>
+            <Link href="/contact_us">Enroll Now</Link>
         </button>
       </div>
       <section className="py-12 bg-white">

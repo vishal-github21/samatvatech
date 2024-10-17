@@ -1,3 +1,4 @@
+ // git remote add origin https://github.com/vishal-github21/samatvatech.git
  git add .
  git commit -m "Initial commi" 
  git push -u origin main

@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
-import {gallery01} from "../contents/gallery"; // Import your images here
-import { gallery02 } from '../contents/gallery';
+import { gallery02,gallery03,gallery01,gallery04,gallery05,gallery06,gallery07,gallery08,gallery09,gallery10,
+  gallery11,gallery12,gallery13,gallery14,gallery15,gallery16,gallery17
+ } from '../contents/gallery';
 
 const Gallery = () => {
-  const images = [gallery01, gallery02]; // Add more images as needed
+  const images = [gallery01, gallery02,gallery03,gallery04,gallery05,gallery06,gallery07,gallery08,gallery09,gallery10,gallery11,gallery12,gallery13,gallery14,gallery15,gallery16,gallery17]; // Add more images as needed
   const [currentImage, setCurrentImage] = useState(0);
 
   useEffect(() => {

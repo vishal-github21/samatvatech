@@ -1,5 +1,20 @@
 import gallery01 from "./gallery01.jpeg"
 import gallery02 from "./gallery02.jpeg"
+import gallery03 from "./gallery03.jpg"
+import gallery04 from "./gallery04.jpg"
+import gallery05 from "./gallery05.jpg"
+import gallery06 from "./gallery06.jpg"
+import gallery07 from "./gallery07.jpg"
+import gallery08 from "./gallery08.jpg"
+import gallery09 from "./gallery09.jpg"
+import gallery10 from "./gallery10.jpg"
+import gallery11 from "./gallery11.jpg"
+import gallery12 from "./gallery12.jpg"
+import gallery13 from "./gallery13.jpg"
+import gallery14 from "./gallery14.jpg"
+import gallery15 from "./gallery15.jpg"
+import gallery16 from "./gallery16.jpg"
+import gallery17 from "./gallery17.jpg"
 export{
-    gallery01,gallery02
+    gallery01,gallery02,gallery03,gallery04,gallery05,gallery06,gallery07,gallery08,gallery09,gallery10,gallery11,gallery12,gallery13,gallery14,gallery15,gallery16,gallery17
 }

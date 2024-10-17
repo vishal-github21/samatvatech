@@ -16,7 +16,7 @@ const Footer = () => {
       query,
     };
 
-    emailjs.send('your_service_id', 'your_template_id', templateParams, 'your_user_id')
+    emailjs.send('service_wn6wtmg', 'template_0ql61hl', templateParams, 'hjMUhknsWSPcJkeag')
       .then((response) => {
         console.log('Success:', response);
         alert('Your query has been sent successfully!');

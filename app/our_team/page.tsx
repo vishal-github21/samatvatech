@@ -2,7 +2,7 @@
 import React from 'react'
 import { Footer, Nav } from '../components'
 import Image from 'next/image'
-import { comm, gouri, md, profile } from '@/public'
+import { ashish, comm, gouri, md, profile } from '@/public'
 
 const our_team = () => {
   return (
@@ -33,7 +33,7 @@ const our_team = () => {
             </div>
           </div>
           <div className='bg-white h-[30vh]  md:h-[44vh] w-full rounded-lg border border-teal-800'>
-            <Image src={comm} alt='' className='rounded-t-lg h-[21vh] md:h-[34vh] w-full object-cover'/>
+            <Image src={ashish} alt='' className='rounded-t-lg h-[21vh] md:h-[34vh] w-full object-cover'/>
             <div className='h-[9vh] md:h-10vh flex-row justify-center items-center text-center'>
             <p className='px-1 md:px-2 text-xs md:text-base font-bold'>Ashish Kumar Singh</p>
             <p className='px-1 md:px-2 text-[0.7rem] md:text-sm font-medium'>Coding and Robotics Faculty</p>

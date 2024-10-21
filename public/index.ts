@@ -28,6 +28,7 @@ import footmain from "./footmain.svg"
 import workshopdata from "./workshopdata.svg"
 import foundation_hero from "./foundation_hero.svg"
 import commerse_hero from "./commerse_hero.svg"
+import ashish from "./ashish.jpg"
 export{
-    logo,hero,profile,payment,gouri,md,workshop,labs,workshopdata,commerse_hero,frame4,foundation_hero,footmain,people,comm,jee,tech,events,illus_1,illus_2,illus_3,workshophero,collaboration,app_game,thinking,skills,prototype,mentors,foundation_knowledge,experience
+    logo,hero,profile,payment,ashish,gouri,md,workshop,labs,workshopdata,commerse_hero,frame4,foundation_hero,footmain,people,comm,jee,tech,events,illus_1,illus_2,illus_3,workshophero,collaboration,app_game,thinking,skills,prototype,mentors,foundation_knowledge,experience
 }
